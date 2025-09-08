@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kapcsolat | PC Doki Nagykálló</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top Bar: phone + email -->
+    <div class="bg-primary text-white py-1 sticky-top">
+      <div class="container d-flex justify-content-end small">
+        <div class="me-4">
+          <i class="fas fa-phone me-1"></i>
+          <a href="tel:+36309201623" class="text-white text-decoration-none">
+            +36 30 920 1623
+          </a>
+        </div>
+        <div>
+          <i class="fas fa-envelope me-1"></i>
+          <a
+            href="mailto:pcdoki2023@gmail.com"
+            class="text-white text-decoration-none"
+          >
+            pcdoki2023@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">PC Doki Nagykálló</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./szolgaltatasok.html"
+                >Szolgáltatások</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./rolunk.html">Rólunk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./kapcsolat.html">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-light py-5">
+      <div class="container text-center">
+        <h1 class="display-4">Lépjen kapcsolatba velünk!</h1>
+        <p class="lead">Kérdése, kérése van? Telefonáljon vagy írjon emailt!</p>
+      </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md-4">
+            <i class="fas fa-phone fa-2x text-primary mb-2"></i>
+            <h5>Telefon</h5>
+            <p>
+              <a href="tel:+36309201623" class="text-decoration-none"
+                >+36 30 920 1623</a
+              >
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-envelope fa-2x text-primary mb-2"></i>
+            <h5>Email</h5>
+            <p>
+              <a href="mailto:pcdoki2023@gmail.com" class="text-decoration-none"
+                >pcdoki2023@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-map-marker-alt fa-2x text-primary mb-2"></i>
+            <h5>Cím</h5>
+            <p>4320 Nagykálló, Biriszőlő út 50.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Opening Hours -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Nyitvatartás</h2>
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped text-center mb-0">
+            <thead class="table-primary">
+              <tr>
+                <th>Nap</th>
+                <th>Nyitvatartás</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hétfő</td>
+                <td>8:00 – 20:00</td>
+              </tr>
+              <tr>
+                <td>Kedd</td>
+                <td>8:00 – 20:00</td>
+              </tr>
+              <tr>
+                <td>Szerda</td>
+                <td>8:00 – 20:00</td>
+              </tr>
+              <tr>
+                <td>Csütörtök</td>
+                <td>8:00 – 20:00</td>
+              </tr>
+              <tr>
+                <td>Péntek</td>
+                <td>8:00 – 20:00</td>
+              </tr>
+              <tr>
+                <td>Szombat</td>
+                <td>9:00 – 18:00</td>
+              </tr>
+              <tr>
+                <td>Vasárnap</td>
+                <td>9:00 – 18:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Places -->
+    <section id="service-area" class="py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Szolgáltatási terület</h2>
+        <p class="mb-4">
+          Helyszíni kiszállást vállalunk Nagykálló és 30 km-es körzetében,
+          többek között:
+        </p>
+        <ul class="list-inline">
+          <li class="list-inline-item mx-3">
+            <i class="fas fa-map-marker-alt text-primary me-1"></i> Nagykálló
+          </li>
+          <li class="list-inline-item mx-3">
+            <i class="fas fa-map-marker-alt text-primary me-1"></i> Nyíregyháza
+          </li>
+          <li class="list-inline-item mx-3">
+            <i class="fas fa-map-marker-alt text-primary me-1"></i> Kállósemjén
+          </li>
+        </ul>
+        <p class="small text-muted">
+          Más településen is szívesen segítünk, egyeztetés alapján.
+        </p>
+      </div>
+    </section>
+
+    <!-- Mailto Form -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Üzenjen nekünk</h2>
+        <form
+          action="mailto:pcdoki2023@gmail.com"
+          method="post"
+          enctype="text/plain"
+          class="mx-auto"
+          style="max-width: 600px"
+        >
+          <div class="mb-3">
+            <label for="name" class="form-label">Név</label>
+            <input type="text" id="name" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email cím</label>
+            <input type="email" id="email" class="form-control" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Üzenet</label>
+            <textarea
+              id="message"
+              rows="5"
+              class="form-control"
+              required
+            ></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">
+              Üzenet küldése
+            </button>
+          </div>
+        </form>
+        <p class="text-center small mt-3">
+          * A fenti űrlap a levelezőprogramodat fogja megnyitni. Ha erre nincs
+          lehetőség, kérjük, közvetlenül írj az email címünkre.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>
+          © <span id="year"></span> PC Doki Nagykálló. Minden jog fenntartva.
+        </p>
+        <div class="social-icons">
+          <a
+            href="https://www.facebook.com/Admin.PcDoki"
+            class="text-white mx-2"
+            ><i class="fab fa-facebook fa-lg"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/pcdokinagykallo/"
+            class="text-white mx-2"
+            ><i class="fab fa-instagram fa-lg"></i
+          ></a>
+          <a href="https://www.tiktok.com/@pc_doki" class="text-white mx-2"
+            ><i class="fab fa-tiktok fa-lg"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

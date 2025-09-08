@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Szolgáltatások | PC Doki Nagykálló</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top Bar: phone + email -->
+    <div class="bg-primary text-white py-1 sticky-top">
+      <div class="container d-flex justify-content-end small">
+        <div class="me-4">
+          <i class="fas fa-phone me-1"></i>
+          <a href="tel:+36309201623" class="text-white text-decoration-none">
+            +36 30 920 1623
+          </a>
+        </div>
+        <div>
+          <i class="fas fa-envelope me-1"></i>
+          <a
+            href="mailto:pcdoki2023@gmail.com"
+            class="text-white text-decoration-none"
+          >
+            pcdoki2023@gmail.com
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">PC Doki Nagykálló</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Kezdőlap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./szolgaltatasok.html"
+                >Szolgáltatások</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./rolunk.html">Rólunk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./kapcsolat.html">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-secondary text-white text-center py-5">
+      <div class="container">
+        <h1 class="display-4">Szolgáltatásaink</h1>
+        <p class="lead">
+          Teljes körű PC- és laptopkarbantartás, javítás és fejlesztés
+          versenyképes áron.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Cards -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Hardverdiagnosztika és javítás -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center p-4">
+              <i class="fas fa-tools fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">Hardverdiagnosztika és javítás</h5>
+              <p class="card-text">
+                Átfogó bevizsgálás, alkatrészcserék és precíz műszaki beállítás.
+              </p>
+            </div>
+          </div>
+          <!-- Vírusirtás és adatmentés -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center p-4">
+              <i class="fas fa-shield-virus fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">Vírusirtás és adatmentés</h5>
+              <p class="card-text">
+                Biztonságos vírusirtás, adatmentés és rendszer-helyreállítás.
+              </p>
+            </div>
+          </div>
+          <!-- Memória és tárhely bővítés -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center p-4">
+              <i class="fas fa-memory fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">Memória és tárhely bővítés</h5>
+              <p class="card-text">
+                SSD/HDD cserék, kapacitásnövelés és gyors rendszerindítás.
+              </p>
+            </div>
+          </div>
+          <!-- Operációs rendszer újratelepítés -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center p-4">
+              <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">Operációs rendszer újratelepítés</h5>
+              <p class="card-text">
+                Tisztított, friss Windows vagy Linux telepítés teljes körű
+                optimalizálással.
+              </p>
+            </div>
+          </div>
+          <!-- Hűtőrendszer tisztítás -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center p-4">
+              <i class="fas fa-fan fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">Hűtőrendszer tisztítás</h5>
+              <p class="card-text">
+                Ventilátor- és hűtőbordatisztítás a stabil és halk működésért.
+              </p>
+            </div>
+          </div>
+          <!-- Hálózatépítés és beállítás -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 text-center p-4">
+              <i class="fas fa-network-wired fa-3x text-primary mb-3"></i>
+              <h5 class="card-title">Hálózatépítés és beállítás</h5>
+              <p class="card-text">
+                Router-konfiguráció, Wi-Fi optimalizálás és hálózati eszközök
+                telepítése.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Bemutató -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Ismerjen meg minket videón!</h2>
+        <div class="ratio ratio-16x9 mx-auto" style="max-width: 800px">
+          <iframe
+            src="https://www.youtube.com/embed/7ENsopwQ_gw"
+            title="PC Doki bemutatkozó videó"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="text-center py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4">Érdeklődés vagy részletek?</h2>
+        <a href="./kapcsolat.html" class="btn btn-primary btn-lg">
+          Lépjen kapcsolatba velünk
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>
+          © <span id="year"></span> PC Doki Nagykálló. Minden jog fenntartva.
+        </p>
+        <div class="social-icons">
+          <a
+            href="https://www.facebook.com/Admin.PcDoki"
+            class="text-white mx-2"
+            ><i class="fab fa-facebook fa-lg"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/pcdokinagykallo/"
+            class="text-white mx-2"
+            ><i class="fab fa-instagram fa-lg"></i
+          ></a>
+          <a href="https://www.tiktok.com/@pc_doki" class="text-white mx-2"
+            ><i class="fab fa-tiktok fa-lg"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

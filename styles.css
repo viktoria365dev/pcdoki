@@ -1,0 +1,11 @@
+/* Carousel */
+#reviewsCarousel .carousel-inner {
+  padding: 0 4rem;
+}
+
+#reviewsCarousel .carousel-control-prev {
+  left: -3rem;
+}
+#reviewsCarousel .carousel-control-next {
+  right: -3rem;
+}
